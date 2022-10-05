@@ -21,13 +21,13 @@
   border: .5rem solid black;
   margin: 0;
   margin-top: var(--header-height, 48px);
-  height: 1500px;
   background: #1f1f1f;
   color: white;
  }
 
  .content {
   margin-top: 48px;
+  min-height: 100vh;
  }
 
     /* HEADER */
