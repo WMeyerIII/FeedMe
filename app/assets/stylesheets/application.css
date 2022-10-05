@@ -46,17 +46,17 @@
 
 /* Content */
 .content {
+  
   margin-top: 48px;
   min-height: 100vh;
+  border: .5rem solid black;
  }
 
  body {
   display: flex;
-  position: relative;
   flex-direction: column;
-  border: .5rem solid black;
+  /* border: .5rem solid black; */
   margin: 0;
-  margin-top: var(--header-height, 48px);
   background: #1f1f1f;
   color: white;
  }
@@ -64,11 +64,11 @@
 /* Footer */
 
 footer{
+  min-height: 48px;
   display: flex;
   justify-content: center;
+  align-items: center;
   list-style-type: none;
   gap: 32px;
   padding: 0;
-  align-items: flex-end;
-  position: relative;
 }
