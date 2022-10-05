@@ -14,6 +14,17 @@
  *= require_self
  */
 
+  /* BODY */
+ body {
+  display: flex;
+  flex-direction: column;
+  /* border: .5rem solid black; */
+  margin: 0;
+  background: #1f1f1f;
+  color: white;
+ }
+
+
     /* HEADER */
  header{
   display: flex;
@@ -44,7 +55,7 @@
   background-color: black;
 }
 
-/* Content */
+  /* Content */
 .content {
   
   margin-top: 48px;
@@ -52,17 +63,7 @@
   border: .5rem solid black;
  }
 
- body {
-  display: flex;
-  flex-direction: column;
-  /* border: .5rem solid black; */
-  margin: 0;
-  background: #1f1f1f;
-  color: white;
- }
-
-/* Footer */
-
+  /* FOOTER */
 footer{
   min-height: 48px;
   display: flex;
