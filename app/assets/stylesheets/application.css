@@ -16,7 +16,14 @@
 
  body {
   display: flex;
+  position: relative;
   flex-direction: column;
+  border: .5rem solid black;
+  margin: 0;
+  margin-top: var(--header-height, 48px);
+  height: 1500px;
+  background: #1f1f1f;
+  color: white;
  }
 
  .content {
@@ -25,20 +32,23 @@
 
     /* HEADER */
  header{
+  /* display: flex; */
   width: 100%;
+  padding: 0 16px;
   position: fixed;
   right: 0;
-  left: 0;
+  left:0;
+  top:0;
+  z-index: 1;
   min-height: 48px;
-  background: red;
+  background: #1f1f1f;
 }
 
 .flex-wrapper {
   display: flex;
   justify-content: space-between;
+  padding-right: 32px;
   align-items: center;
-  margin-left: 5rem;
-  margin-right: 5rem;
 }
 
 .links ul{
