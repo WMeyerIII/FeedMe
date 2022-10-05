@@ -17,7 +17,6 @@
  body {
   display: flex;
   flex-direction: column;
-  
  }
 
     /* HEADER */
@@ -36,7 +35,6 @@
   margin-right: 5rem;
 }
 
-
 .links ul{
   display:flex;
   list-style-type: none;
@@ -45,5 +43,6 @@
   color: red;
   background-color: black;
 }
+
 
 
