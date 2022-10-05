@@ -19,6 +19,10 @@
   flex-direction: column;
  }
 
+ .content {
+  margin-top: 48px
+ }
+
     /* HEADER */
  header{
   width: 100%;
@@ -43,6 +47,4 @@
   color: red;
   background-color: black;
 }
-
-
 
