@@ -14,22 +14,6 @@
  *= require_self
  */
 
- body {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  border: .5rem solid black;
-  margin: 0;
-  margin-top: var(--header-height, 48px);
-  background: #1f1f1f;
-  color: white;
- }
-
- .content {
-  margin-top: 48px;
-  min-height: 100vh;
- }
-
     /* HEADER */
  header{
   display: flex;
@@ -59,6 +43,23 @@
   color: red;
   background-color: black;
 }
+
+/* Content */
+.content {
+  margin-top: 48px;
+  min-height: 100vh;
+ }
+
+ body {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: .5rem solid black;
+  margin: 0;
+  margin-top: var(--header-height, 48px);
+  background: #1f1f1f;
+  color: white;
+ }
 
 /* Footer */
 
