@@ -61,14 +61,19 @@
   border: .5rem solid black;
  }
 
- .hero ul{
+ .meal-links ul{
   display: flex;
-  gap: 32px;
+  min-height: 100vh;
+  justify-content: space-around;
+  align-items: center;
  }
 
- .display-meals ul{
+ .meal-display ul{
   display: flex;
   gap: 32px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
  }
 
   /* FOOTER */
