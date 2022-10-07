@@ -64,8 +64,16 @@
  .meal-links ul{
   display: flex;
   min-height: 100vh;
-  justify-content: space-around;
   align-items: center;
+  justify-items: stretch;
+  text-align: center;
+  gap: 4vw;
+ }
+
+ .meal-links li {
+  list-style: none;
+  border: .1rem solid white;
+  flex-grow: 1;
  }
 
  .meal-display ul{
