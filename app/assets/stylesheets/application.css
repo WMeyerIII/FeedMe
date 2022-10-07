@@ -42,17 +42,15 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  
 }
 
 .links ul{
   display:flex;
   list-style-type: none;
-  gap: 35px;
+  gap: 100px;
   padding: 0;
   margin: 0;
-  color: red;
+  font-size: 32px;
 }
 
   /* Content */
@@ -79,19 +77,32 @@
   }
   
 
- .meal-links ul{
+ .entree, .nontree{
   display: flex;
-  margin: 0 10vw;
+  margin: 0 30vw;
+  justify-content: center;
   align-items: center;
   text-align: center;
   gap: 4vw;
   padding: 0;
+  font-size: 1.5vw;
+ }
+
+ .nontree {
+  margin: 0 40vw;
+  justify-content: space-evenly;
  }
 
  .meal-links li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   list-style: none;
   border: .1rem solid white;
-  flex-grow: 1;
+  height: 6vh;
+  /* min-height: 60px; */
+  width: 10vw;
+  /* min-width: 120px */
  }
 
  .meal-display ul{
