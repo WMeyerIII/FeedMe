@@ -109,6 +109,11 @@
   min-width: 120px;
  }
 
+ .info-wrapper {
+  display: flex;
+  justify-content: center;
+ }
+
  .meal-display ul{
   display: flex;
   gap: 32px;
