@@ -45,15 +45,17 @@
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.links ul{
-  display:flex;
-  list-style-type: none;
+  align-items: center;
   gap: 7vw;
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
   font-size: 32px;
+}
+
+.flex-wrapper div:hover {
+  border-bottom: .25vh solid azure;
+  padding-top: 1.3vh;
+  padding-bottom: 1.7vh
 }
 
   /* Content */
@@ -71,7 +73,10 @@
    /* margin-bottom: 25vh; */
    /* background: black; */
   }
-  
+  #checkbox {
+    margin-right: 1vw;
+  }
+
   .logo {
    display: flex;
    justify-content: center;
