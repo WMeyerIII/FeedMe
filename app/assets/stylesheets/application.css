@@ -35,8 +35,8 @@
   left: 0;
   top: 0;
   z-index: 1;
-  min-height: 8vh;
-  /* background: #1f1f1f; */
+  min-height: 7vh;
+  background: #1f1f1f;
   border-bottom: .1vh solid azure;
 }
 
@@ -57,7 +57,7 @@
 
   /* Content */
 .content {
-  margin-top: var(--header-min-height, 8vh);
+  margin-top: var(--header-min-height, 7vh);
   min-height: 100vh;
  }
 
@@ -65,7 +65,10 @@
    display: flex;
    flex-direction: column;
    min-height: 60vh;
-   margin-bottom: 25vh;
+   padding-bottom: 26vh;
+
+   /* margin-bottom: 25vh; */
+   /* background: black; */
   }
   
   .logo {
