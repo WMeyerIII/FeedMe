@@ -197,11 +197,11 @@ font-size: clamp(.5rem,1.875rem,1.875rem);
 
   /* FOOTER */
 footer{
-  min-height: 48px;
+  min-height: 7vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style-type: none;
-  gap: 32px;
   padding: 0;
+  border-top: .1vh solid azure;
+  background:  #1f1f1f;
 }
