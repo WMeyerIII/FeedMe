@@ -78,13 +78,15 @@
   margin-top: 7vh;
   margin-right: 0;
   /* font-size: calc(12px + 20vw); */
-  font-size: clamp( 1.5rem, 20vw, 20vw )
+  /* font-size: clamp( 15vw, 20vw, 20vw ) */
+  font-size: 20vw;
 }
   
 .meal-options {
   display: flex;
   justify-content: center;
   margin-bottom: 3vh;
+  gap: 1vw;
 }
 
 .entree, .nontree{
@@ -158,8 +160,8 @@ font-size: clamp(.5rem,1.875rem,1.875rem);
  .text-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
   /* width: 100%; */
   min-height: 30vh;
   gap: 2vw;
@@ -173,17 +175,11 @@ font-size: clamp(.5rem,1.875rem,1.875rem);
   font-size: clamp(.01rem,2rem,2rem)
  }
 
- .text-wrapper p {
+ .text-wrapper  p {
   /* font-size: 20px; */
   font-size: clamp(.25rem,1.25rem,1.25rem);
-  /* width: 40vw; */
   line-height: 175%;
   text-align: left;
- }
- 
- .text-wrapper div {
-  /* display: flex;
-  flex-grow: 1; */
  }
 
  .meal-display {
