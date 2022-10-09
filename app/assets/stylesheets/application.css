@@ -37,6 +37,7 @@
   top: 0;
   z-index: 1;
   min-height: 7vh;
+  max-height: 7vh;
   background: #1f1f1f;
   border-bottom: .1vh solid azure;
 }
@@ -49,44 +50,41 @@
   gap: 7vw;
   /* padding: 0; */
   margin: 0;
-  font-size: 32px;
+  font-size: 25px;
 }
 
 .flex-wrapper div:hover {
   border-bottom: .25vh solid azure;
-  padding-top: 1.3vh;
-  padding-bottom: 1.7vh
+  padding-top: 2vh;
+  padding-bottom: 2vh
 }
 
   /* Content */
 .content {
   margin-top: var(--header-min-height, 7vh);
-  min-height: 100vh;
  }
 
  .meal-links {
+   min-height: 93vh;
    display: flex;
    flex-direction: column;
-   min-height: 60vh;
-   padding-bottom: 26vh;
-
-   /* margin-bottom: 25vh; */
-   /* background: black; */
-  }
-  #checkbox {
-    margin-right: 1vw;
   }
 
+  
   .logo {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   min-height: 40vh;
-   margin-top: 8vh;
-   margin-right: 0;
-   font-size: calc(12px + 20vw)
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    margin-right: 0;
+    font-size: calc(12px + 20vw);
   }
   
+  .meal-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+  }
 
  .entree, .nontree{
   display: flex;
