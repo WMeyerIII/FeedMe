@@ -206,14 +206,14 @@ img {
 .meals-top, .meals-bottom {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 5vw;
   justify-content: center;
   align-items: center;
   list-style: none;
  }
 
 .meal-display img {
-  /* height: auto; */
+  height: 200px;
   width: 350px;
   object-fit: cover;
  }
