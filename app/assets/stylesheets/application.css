@@ -173,8 +173,9 @@ img {
 
 .text-wrapper {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+  flex-wrap: wrap;
   min-height: 30vh;
   gap: 2vw;
   background:rgb(245, 245, 245);
@@ -182,14 +183,15 @@ img {
  }
 
 .text-wrapper  h1 {
-  /* padding: 0; */
+  margin-left: 20vw;
+  display: flex;
   max-width: 30vw;
-  font-size: clamp(.01rem,2rem,2rem)
+  font-size: clamp(.01rem, 2rem, 2rem)
  }
 
 .text-wrapper  p {
   max-width: 30vw;
-  font-size: clamp(.25rem,1rem,1rem);
+  font-size: clamp(.1rem, 1rem, 1rem);
   line-height: 175%;
   text-align: left;
  }
@@ -218,6 +220,14 @@ img {
   object-fit: cover;
  }
 
+.meals-title {
+  font-size: 32px;
+}
+
+ #recipe-title {
+  font-size: 24px;
+ }
+
   /* FOOTER */
 footer{
   min-height: 7vh;
@@ -227,3 +237,4 @@ footer{
   padding: 0;
   border-top: .1vh solid azure;
  }
+
