@@ -43,8 +43,14 @@
 }
 
 .header.active {
-  background: azure;
+  background: white;
   color: black;
+}
+
+.flex-wrapper.active div:hover {
+  border-bottom: .25vh solid black;
+  padding-top: 2vh;
+  padding-bottom: 2vh
 }
 
 .flex-wrapper {
