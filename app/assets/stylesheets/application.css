@@ -28,7 +28,7 @@
 
 
     /* HEADER */
- header{
+ .header{
   display: flex;
   align-items: center;
   position: fixed;
@@ -40,6 +40,11 @@
   max-height: 7vh;
   background: #1f1f1f;
   border-bottom: .1vh solid azure;
+}
+
+.header.active {
+  background: azure;
+  color: black;
 }
 
 .flex-wrapper {
