@@ -204,8 +204,9 @@ img {
  }
 
 .meal-display img {
-  height: 350px;
+  /* height: auto; */
   width: 350px;
+  object-fit: cover;
  }
 
   /* FOOTER */
