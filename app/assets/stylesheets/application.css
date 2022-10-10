@@ -57,7 +57,7 @@
 }
 
 .flex-wrapper div:hover {
-  border-bottom: .25vh solid azure;
+  border-bottom: .25vh solid white;
   padding-top: 2vh;
   padding-bottom: 2vh
 }
@@ -173,13 +173,14 @@ font-size: clamp(.5rem,1.875rem,1.875rem);
  }
 
  .text-wrapper  h1 {
-  padding: 0;
-  width: 50vw;
+  /* padding: 0; */
+  max-width: 30vw;
   font-size: clamp(.01rem,2rem,2rem)
  }
 
  .text-wrapper  p {
-  font-size: clamp(.25rem,1.25rem,1.25rem);
+  max-width: 30vw;
+  font-size: clamp(.25rem,1rem,1rem);
   line-height: 175%;
   text-align: left;
  }
@@ -192,7 +193,7 @@ font-size: clamp(.5rem,1.875rem,1.875rem);
   min-height: 100vh;
   padding-top: 4vh;
  }
- 
+
  .meals-top, .meals-bottom {
   display: flex;
   flex-wrap: wrap;
