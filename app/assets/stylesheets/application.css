@@ -58,14 +58,16 @@ body {
 
 .flex-wrapper div:hover {
   border-bottom: .25vh solid white;
-  padding-top: 2vh;
-  padding-bottom: 2vh
+  max-height: 5vh;
+  padding-top: .8vh;
+  padding-bottom: 1.7vh
  }
 
 .flex-wrapper.active div:hover {
   border-bottom: .25vh solid black;
-  padding-top: 2vh;
-  padding-bottom: 2vh
+  max-height: 7vh;
+  padding-top: .8vh;
+  padding-bottom: 1.7vh
  }
 
   /* Content */
