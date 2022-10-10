@@ -9,7 +9,7 @@ $(function () {
       $(".flex-wrapper").addClass("active");
     } else {
       $(".header").removeClass("active");
-      $(".flex-wrapper").addClass("active");
+      $(".flex-wrapper").removeClass("active");
     }
   });
 });
