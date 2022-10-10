@@ -38,19 +38,12 @@
   z-index: 1;
   min-height: 7vh;
   max-height: 7vh;
-  /* background: #1f1f1f; */
   border-bottom: .1vh solid azure;
 }
 
 .header.active {
   background: white;
   color: black;
-}
-
-.flex-wrapper.active div:hover {
-  border-bottom: .25vh solid black;
-  padding-top: 2vh;
-  padding-bottom: 2vh
 }
 
 .flex-wrapper {
@@ -65,6 +58,12 @@
 
 .flex-wrapper div:hover {
   border-bottom: .25vh solid azure;
+  padding-top: 2vh;
+  padding-bottom: 2vh
+}
+
+.flex-wrapper.active div:hover {
+  border-bottom: .25vh solid black;
   padding-top: 2vh;
   padding-bottom: 2vh
 }
